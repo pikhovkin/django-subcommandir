@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name='django-subcommandir',
-    version='0.1.0',
+    version='0.1.1',
     description='Django subcommands in subdirectories',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -38,5 +38,8 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+    ],
+    keywords=[
+        'django', 'command', 'commands', 'django-commands', 'django-subcommands',
     ],
 )
